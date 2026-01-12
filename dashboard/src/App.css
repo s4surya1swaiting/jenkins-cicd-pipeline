@@ -36,16 +36,19 @@ body::before {
   right: 0;
   bottom: 0;
   background:
-    radial-gradient(ellipse at 10% 10%, rgba(35, 134, 54, 0.1) 0%, transparent 40%),
-    radial-gradient(ellipse at 90% 90%, rgba(31, 111, 235, 0.1) 0%, transparent 40%);
+    radial-gradient(ellipse at 10% 10%, rgba(35, 134, 54, 0.15) 0%, transparent 45%),
+    radial-gradient(ellipse at 90% 10%, rgba(31, 111, 235, 0.12) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 90%, rgba(163, 113, 247, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 90%, rgba(31, 111, 235, 0.15) 0%, transparent 45%);
   pointer-events: none;
   z-index: -1;
 }
 
 .app {
-  max-width: 1400px;
+  width: 96%;
+  max-width: 1800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
 /* Header */
